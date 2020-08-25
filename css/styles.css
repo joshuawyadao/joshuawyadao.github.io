@@ -1,0 +1,142 @@
+/******************** TAG SELECTORS ********************/
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: 0.625rem dotted #EAF6F6;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 10%;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+/******************** CLASS SELECTORS ********************/
+/*** CONTAINERS ***/
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 0;
+  padding: 50px 0 20px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.contact-button {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 8px;
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 16px;
+  background-color: #66BFBF;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+/*** SKILLS ***/
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+/*** TEXT STYLING ***/
+.contact-message {
+  margin: 40px auto;
+  width: 40%;
+}
+
+.copyright-text {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.intro {
+  margin: auto;
+  width: 50%;
+}
+
+/*** IMAGES ***/
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.profile-icon {
+  width: 25%;
+}
+
+.software-icon {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.music-comp-icon {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
